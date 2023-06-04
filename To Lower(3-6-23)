@@ -1,0 +1,8 @@
+Convert string  into lowercase in java
+class Solution {
+    public String toLowerCase(String s) {
+      String st;
+		 st=s.toLowerCase();
+		 return st;  
+    }
+}
