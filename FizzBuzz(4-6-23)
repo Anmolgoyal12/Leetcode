@@ -1,0 +1,29 @@
+Fizz buzz using java
+import java.util.*; 
+class Solution {
+    public List<String> fizzBuzz(int n) {
+        List <String> lr=new ArrayList();
+        for(int k=1;k<=n;k++)
+        {
+            if(k%3==0 && k%5!=0)
+            {
+                lr.add("Fizz");
+            }
+            else if(k%5==0 && k%3!=0)
+            {
+            lr.add("Buzz");
+            }
+            else if(k%3==0 && k%5==0)
+            {
+                lr.add("FizzBuzz");
+            }
+            else 
+            {
+                lr.add(String.valueOf(k));
+            }
+        }
+        return lr;
+
+
+        }
+    }
